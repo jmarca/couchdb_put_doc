@@ -1,0 +1,28 @@
+{
+  "name": "couchdb_put_doc",
+  "version": "0.0.1",
+  "description": "Boilerplate code to put a doc into a couchdb. put, not post",
+  "main": "lib/put_doc.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "should": "~1.2.2",
+    "superagent": "~0.14.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmarca/couchdb_put_doc"
+  },
+  "keywords": [
+    "couchdb",
+    "put"
+  ],
+  "author": "James E. Marca",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
