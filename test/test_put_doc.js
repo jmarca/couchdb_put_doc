@@ -186,6 +186,13 @@ describe('put',function(){
                 r.should.have.property('ok')
                 r.should.have.property('rev')
                 r.should.have.property('id',testdoc._id)
+                superagent.get(couch+'/'+testdoc._id)
+                .type('json')
+                .end(function(e,r){
+                    var got_doc = JSON.parse(r.text)
+                    got_doc.should.not.have.property('value')
+                    got_doc.should.have.property('pancake','breakfast')
+                })
                 done()
             })
         })

@@ -1,7 +1,7 @@
 {
   "name": "couchdb_put_doc",
-  "version": "0.0.1",
-  "description": "Boilerplate code to put a doc into a couchdb. put, not post",
+  "version": "0.0.2",
+  "description": "Boilerplate code to put a doc into a couchdb. put, also post if no id",
   "main": "lib/put_doc.js",
   "directories": {
     "test": "test"
