@@ -1,5 +1,7 @@
 # couchdb_put_doc
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jmarca/couchdb_put_doc.svg)](https://greenkeeper.io/)
+
 This is a utility to put a new doc into couchdb
 
 It uses superagent.
