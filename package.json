@@ -7,7 +7,7 @@
     "test": "test"
   },
   "dependencies": {
-    "should": "~1.2.2",
+    "should": "~1.3.0",
     "superagent": ""
   },
   "devDependencies": {},
